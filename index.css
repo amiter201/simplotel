@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
 .home-container {
   width: 90%;
   height: 100vh;
@@ -12,6 +15,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .lorem-container-2 {
   text-align: left;
   padding: 20px;
@@ -21,16 +25,24 @@ body {
     rgb(128, 93, 99)
   );
 }
+
 .button {
-  padding: 5px 35px 5px 35px;
+  padding: 5px 5px 5px 5px;
   background-color: rgb(192, 110, 123);
   margin-top: 30px;
 }
+
+.click-image {
+  width: 5px;
+  height: 5px;
+}
+
 .food-image {
   width: 100%;
   height: 100%;
   background-size: cover;
 }
+
 .sec-div {
   display: flex;
   flex-direction: row;
@@ -44,28 +56,33 @@ body {
   );
   margin-top: 10px;
 }
+
 .sub-sec-div {
   display: flex;
   flex-direction: row;
   text-align: center;
   margin: auto;
 }
+
 .sub-sec-div-image {
   display: flex;
   flex-direction: column;
 }
+
 .sec-div-image {
   width: 200px;
   height: 200px;
   background-size: cover;
   padding: 15px;
 }
+
 .sec-div-image3 {
   width: 200px;
   height: 430px;
   padding-top: 15px;
   background-size: cover;
 }
+
 .click-div {
   background-color: #c4333f;
   padding: 15px 20px 15px 20px;
@@ -73,6 +90,7 @@ body {
   margin-bottom: auto;
   margin-right: auto;
 }
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -98,6 +116,7 @@ body {
   background-color: #816969;
   color: rgb(238, 223, 223);
 }
+
 .nav-image {
   width: 30px;
   height: 30px;
@@ -107,32 +126,36 @@ body {
   .navbar a {
     float: left;
     display: block;
-    font-size: 15px;
+    font-size: 8px;
     font-weight: bold;
     font-family: roboto;
 
     box-sizing: border-box;
   }
+
   .sec-div-image {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
-    padding: 8px;
+    padding: 5px;
   }
+
   .sec-div-image3 {
-    width: 50px;
-    height: 280px;
-    padding-top: 8px;
+    width: 30px;
+    height: 260px;
+    padding-top: 5px;
     background-size: cover;
   }
+
   .click-div {
     background-color: #c4333f;
-    padding: 8px 10px 8px 10px;
+    padding: 5px 5px 5px 5px;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 800px) {
   .navbar a {
     float: none;
@@ -143,12 +166,14 @@ body {
 
     box-sizing: border-box;
   }
+
   .sec-div-image {
     width: 110px;
     height: 110px;
     background-size: cover;
     padding: 10px;
   }
+
   .sec-div-image3 {
     width: 110px;
     height: 240px;
